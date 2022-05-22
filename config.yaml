@@ -1,0 +1,20 @@
+application:
+  name:
+  port:
+  # if you use tls, add cert and key file path here
+  certFile:
+  keyFile:
+db:
+  host:
+  port:
+  username:
+  password:
+  dbName:
+log:
+  mode: dev
+  level: debug
+  filename:
+  maxSize: 50
+  maxAge: 30
+  # 0 means retain all
+  maxBackups: 0
